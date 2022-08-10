@@ -416,6 +416,101 @@ section{
     color:var(--black);
 }
 
+.newsletter{
+    padding:6rem 2rem;
+    background: url(../image/letter-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.newsletter h3{
+    font-size: 3rem;
+    color:var(--black);
+}
+
+.newsletter p{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.newsletter form{
+    max-width: 60rem;
+    height:5rem;
+    background:#fff;
+    border-radius: 5rem;
+    overflow:hidden;
+    display: flex;
+    margin:1rem auto;
+    box-shadow: var(--box-shadow);
+}
+
+.newsletter form input[type="email"]{
+    height: 100%;
+    width:100%;
+    padding:0 2rem;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+}
+
+.newsletter form input[type="submit"]{
+    height: 100%;
+    width:17rem;
+    font-size: 1.7rem;
+    color:var(--black);
+    background: var(--light-yellow);
+    cursor: pointer;
+}
+
+.newsletter form input[type="submit"]:hover{
+    background: var(--yellow);
+}
+
+.reviews .review-slider{
+    padding-bottom: 3rem;
+}
+
+.reviews .review-slider .box{
+    text-align: center;
+    padding:2rem;
+    margin: 2rem 0;
+    opacity: .4;
+    transform: scale(.9);
+}
+
+.reviews .review-slider .swiper-slide-active{
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    border-radius: .5rem;
+}
+
+.reviews .review-slider .box img{
+    height:7rem;
+    width:7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .review-slider .box .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    padding:1rem 0;
+}
+
+.reviews .review-slider .box .content h3{
+    color:var(--black);
+    font-size: 2.2rem;
+    padding-bottom: .5rem;
+}
+
+.reviews .review-slider .box .content .stars i{
+    color:var(--yellow);
+    font-size: 1.7rem;
+}
 
 
 /* media queries */
